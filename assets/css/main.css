@@ -1306,10 +1306,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		background-attachment: fixed;
+		background-color: #310e68;
+		background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);	
 		overflow-y: scroll;
 	}
 
@@ -1366,7 +1364,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: rgba(255, 255, 255, 0.87);
 	}
 
 	h1 {
@@ -1533,7 +1531,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: rgba(255,255,255,0.6);
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1800,7 +1798,7 @@ input, select, textarea {
 				font-size: 0.8em;
 			}
 
-			#nav a:after {
+			/* #nav a:after {
 				content: '';
 				display: block;
 				position: absolute;
@@ -1814,7 +1812,7 @@ input, select, textarea {
 				-webkit-transition: border-bottom-width .25s ease-in-out;
 				-ms-transition: border-bottom-width .25s ease-in-out;
 				transition: border-bottom-width .25s ease-in-out;
-			}
+			} */
 
 			#nav a span {
 				display: block;
@@ -1946,10 +1944,10 @@ input, select, textarea {
 	#main {
 		position: relative;
 		overflow: hidden;
+		border-radius: 10px;
 		width: 100%;
 		background: #ffffff;
-		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
-		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
+		box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-ms-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -1985,6 +1983,7 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
+				background-color: rgba(13,17,23,255);
 				-moz-flex-direction: row;
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
@@ -2039,7 +2038,7 @@ input, select, textarea {
 						object-position: center;
 					}
 
-					#main > .panel.intro .pic .arrow {
+					/* #main > .panel.intro .pic .arrow {
 						display: block;
 						position: absolute;
 						right: 0;
@@ -2058,7 +2057,7 @@ input, select, textarea {
 						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 						-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-					}
+					} */
 
 						#main > .panel.intro .pic .arrow:before {
 							position: relative;
@@ -2077,6 +2076,7 @@ input, select, textarea {
 					}
 
 				#main > .panel.intro header {
+					color: #FFFFFF;
 					-moz-flex-grow: 1;
 					-webkit-flex-grow: 1;
 					-ms-flex-grow: 1;
