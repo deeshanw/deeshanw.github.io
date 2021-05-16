@@ -1306,8 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #310e68;
-		background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);	
+		background-image: url("https://source.unsplash.com/Z9QoQ6d_mKg/1920x1080");
 		overflow-y: scroll;
 	}
 
@@ -1364,7 +1363,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: rgba(255, 255, 255, 0.87);
+		color: #363636;
 	}
 
 	h1 {
@@ -1531,7 +1530,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: rgba(255,255,255,0.6);
+			color: #aaa;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1983,7 +1982,6 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
-				background-color: rgba(13,17,23,255);
 				-moz-flex-direction: row;
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
@@ -2076,7 +2074,6 @@ input, select, textarea {
 					}
 
 				#main > .panel.intro header {
-					color: #FFFFFF;
 					-moz-flex-grow: 1;
 					-webkit-flex-grow: 1;
 					-ms-flex-grow: 1;
@@ -2126,7 +2123,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#main > .panel.intro .pic {
-						height: 20em;
+						height: 15em;
 					}
 
 					#main > .panel.intro header {
