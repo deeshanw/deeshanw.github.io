@@ -1307,7 +1307,7 @@ input, select, textarea {
 
 	body {
 		background-image: url("https://source.unsplash.com/Z9QoQ6d_mKg/1920x1080");
-		background-size: cover;
+		background-size: contain;
 		overflow-y: scroll;
 	}
 
