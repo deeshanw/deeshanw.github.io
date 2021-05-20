@@ -1060,8 +1060,7 @@ html {
 }
 
 body {
-	background-image: url("https://source.unsplash.com/hoS3dzgpHzw/1920x1080");
-	background-size: cover;
+	background-image: url("https://source.unsplash.com/0aWZdK8nK2I/1920x1080");
 	overflow-y: scroll;
 }
 
@@ -1779,6 +1778,10 @@ body.is-preload #wrapper {
 	#main>.panel.intro header {
 		padding: 3.5em 2.5em 3.5em 2.5em;
 		text-align: center;
+	}
+
+	#main>.panel.intro header p {
+		text-align: left;
 	}
 }
 
