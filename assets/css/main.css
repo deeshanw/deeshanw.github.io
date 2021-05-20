@@ -1944,7 +1944,6 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		border-radius: 10px;
-		width: 80%;
 		background: #ffffff;
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2134,6 +2133,18 @@ input, select, textarea {
 						}
 
 				}
+
+/* Work */
+
+#main > #work {
+	padding: 0em !important;
+	width: 100%;
+}
+
+#work > .resume {
+	width: 100%;
+}
+
 
 /* Footer */
 
