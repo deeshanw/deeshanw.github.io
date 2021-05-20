@@ -1299,17 +1299,13 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		background-color: #00488E;
 		}
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
 
 	body {
-		background-image: url("http://netgon.net/artstyles/v-card2/assets/images/triangles-top-2.svg"), url("http://netgon.net/artstyles/v-card2/assets/images/triangles-bottom-2.svg");
-		background-position: left top, right bottom;
-		background-repeat: no-repeat;
-		background-size: cover;
+		background-image: url("https://source.unsplash.com/hoS3dzgpHzw/1920x1080");
 		overflow-y: scroll;
 	}
 
@@ -1947,9 +1943,8 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		border-radius: 10px;
-		width: 100%;
+		width: 80%;
 		background: #ffffff;
-		box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);		
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-ms-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2111,7 +2106,7 @@ input, select, textarea {
 						}
 
 						#main > .panel.intro header {
-							padding: 4em 4em 2em 4em;
+							padding: 3.5em 2.5em 3.5em 2.5em;
 							text-align: center;
 						}
 
@@ -2121,10 +2116,12 @@ input, select, textarea {
 
 					#main > .panel.intro .pic {
 						height: 15em;
+						width: 16em
 					}
 
 					#main > .panel.intro .pic img {
 						height: 100%;
+						width: 100%;
 					}
 
 					#main > .panel.intro header {
