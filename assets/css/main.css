@@ -1062,7 +1062,7 @@ html {
 body {
 	background: #ee0979;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	background: linear-gradient(to left, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */			
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1581,10 +1581,10 @@ ul.actions li:first-child {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	-moz-transition: opacity 0.2s ease-in-out;
-	-webkit-transition: opacity 0.2s ease-in-out;
-	-ms-transition: opacity 0.2s ease-in-out;
-	transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
 }
 
 body.is-preload #wrapper {
@@ -1631,6 +1631,7 @@ body.is-preload #wrapper {
 	-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 	-ms-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 	transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
+	overflow: hidden;
 }
 
 #main>.panel {
@@ -1644,7 +1645,9 @@ body.is-preload #wrapper {
 	width: 100%;
 }
 
-#main>.panel.inactive {}
+#main>.panel.inactive {
+	opacity: 0;
+}
 
 @media screen and (max-width: 736px) {
 	#main>.panel {
