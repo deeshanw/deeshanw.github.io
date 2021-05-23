@@ -1060,9 +1060,9 @@ html {
 }
 
 body {
-	background: #000428;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	background: #8A2387;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1210,14 +1210,14 @@ table.default thead {
 form label {
 	display: block;
 	font-weight: 400;
-	color: #363636;
+	color: rgba(255,255,255,0.7);
 	margin: 0 0 1em 0;
 }
 
 form input[type="text"], form input[type="email"], form input[type="password"], form select, form textarea {
 	-webkit-appearance: none;
 	border: 0;
-	background: #f4f4f4;
+	background-color: rgba(255,255,255,0.2);
 	padding: 0.75em;
 	width: 100%;
 	-moz-transition: background-color .25s ease-in-out;
@@ -1227,7 +1227,8 @@ form input[type="text"], form input[type="email"], form input[type="password"], 
 }
 
 form input[type="text"]:focus, form input[type="email"]:focus, form input[type="password"]:focus, form select:focus, form textarea:focus {
-	background: #f8f8f8;
+	background-color: rgba(255,255,255,0.3);
+	color: rgba(255,255,255,0.7);
 }
 
 form input[type="text"], form input[type="email"], form input[type="password"], form select {
@@ -1235,19 +1236,19 @@ form input[type="text"], form input[type="email"], form input[type="password"], 
 }
 
 form ::-webkit-input-placeholder {
-	color: #999;
+	color: rgba(255,255,255,0.7);
 }
 
 form :-moz-placeholder {
-	color: #999;
+	color: rgba(255,255,255,0.7);
 }
 
 form ::-moz-placeholder {
-	color: #999;
+	color: rgba(255,255,255,0.7);
 }
 
 form :-ms-input-placeholder {
-	color: #999;
+	color: rgba(255,255,255,0.7);
 }
 
 /* Section/Article */
@@ -1266,7 +1267,7 @@ header {
 
 header>p {
 	margin: 0.5em 0 0 0;
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (max-width: 736px) {
@@ -1620,7 +1621,7 @@ body.is-preload #wrapper {
 /* Main */
 
 #main {
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	background-color: rgba(255, 255, 255, 0.1);
 	position: relative;
 	border-radius: 20px;
