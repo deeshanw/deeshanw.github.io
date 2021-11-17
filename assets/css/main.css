@@ -1693,8 +1693,10 @@ body.is-preload #wrapper {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	border-radius: 100%;
 	width: 80%;
-	height: 80%;
+	left: 10%;
+	bottom: 20%;
 	-moz-object-fit: cover;
 	-webkit-object-fit: cover;
 	-ms-object-fit: cover;
@@ -1780,8 +1782,7 @@ body.is-preload #wrapper {
 		width: 16em
 	}
 	#main>.panel.intro .pic img {
-		height: 250px;
-		width: 100%;
+		width: 190px;
 	}
 	#main>.panel.intro header {
 		padding: 3.5em 2.5em 3.5em 2.5em;
@@ -1798,8 +1799,8 @@ body.is-preload #wrapper {
 		width: 16em
 	}
 	#main>.panel.intro .pic img {
-		height: 250px;
-		width: 100%;
+		width: 190px;
+		bottom: 10px;
 	}
 	#main>.panel.intro header {
 		padding: 2.75em 2em 1em 2em;
