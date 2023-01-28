@@ -1060,14 +1060,10 @@ html {
 }
 
 body {
-	/* background: rgb(2,0,36);
-	background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(121,9,97,1) 35%, rgba(0,153,255,1) 100%); */
-	background: linear-gradient(135deg, #45214A 15%, #323050 30%, #21445B 50%, #1A6566 70%, #5D8A66 100%);
-	
-	background-size: cover;
-	background-repeat: no-repeat;
-	overflow-y: scroll;
-}
+	/* background: radial-gradient(circle at 111% 50%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%); */
+	background: radial-gradient(circle at 111% 50%, #000428 0%, #001f40 15.9%, #015580 15.9%, #016590 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+  }
+  
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 	-moz-animation: none !important;
